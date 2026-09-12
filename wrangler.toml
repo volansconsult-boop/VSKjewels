@@ -1,0 +1,8 @@
+name = "vskjewels"
+compatibility_date = "2024-09-23"
+
+# Deploys this repo as a static-asset-only Worker (no server code) —
+# the modern equivalent of a Cloudflare Pages site.
+[assets]
+directory = "."
+not_found_handling = "404-page"

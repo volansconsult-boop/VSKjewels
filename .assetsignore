@@ -1,0 +1,5 @@
+# Files not meant to be served as part of the site.
+README.md
+wrangler.toml
+.gitignore
+.git
