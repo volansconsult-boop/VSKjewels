@@ -23,23 +23,18 @@ values in those URLs are what credit your account — do not remove them.
 
 ## Status of the content
 
-Already filled in: brand name (**Ranisa**), address (580 Fifth Avenue, Suite
+Already filled in: brand name (**Sovra**), address (580 Fifth Avenue, Suite
 1221, New York, NY 10036), phone `(646) 773-4637`, email `Vskjewels@gmail.com`,
 `about.html` copy, and the three iframe URLs.
 
 Still worth doing before launch:
 
-1. **Real logo** — `assets/logo.svg` is a hand-built approximation of the Ranisa
-   crest (crown + diamond + "RANISA / FINE JEWELRY"). Replace it with the
-   official vector or a transparent-background PNG when you have one, keeping the
-   filename `logo.svg` (or update the `<img src>` / `<link rel="icon">` if you
-   change the extension). Same for `assets/favicon.svg` if you have a proper
-   icon.
+1. **Logo** — `assets/sovra-logo.jpg` is the supplied Sovra Jewels image, used in the header and as the site icon.
 2. **About copy** — `about.html` has real wording now, but review the "Our
    approach" section so it matches how you actually work (grading reports,
    warranty, resizing, returns).
 3. **Colours / fonts** — the `:root` block in `styles.css` (`--gold` is set to
-   Ranisa's antique gold `#b8935a`; `--serif`, `--sans`, `--ivory`, `--ink`).
+   Sovra's antique gold `#b8935a`; `--serif`, `--sans`, `--ivory`, `--ink`).
 4. **Menu labels** — currently "Custom Design / Lab-Grown Diamonds / Natural
    Diamonds". To use the vendor brand names instead, change the link text in the
    `<nav class="site-nav">` block on every page (and the `.eyebrow` on each

@@ -4,7 +4,7 @@
    ========================================================================= */
 
 :root {
-  --gold:        #b8935a;   /* accent — Ranisa antique gold */
+  --gold:        #b8935a;   /* accent — Sovra antique gold */
   --gold-dark:   #94703f;   /* accent hover / links */
   --ink:         #1a1a1a;   /* body text */
   --ink-soft:    #4a4a4a;   /* secondary text */
@@ -18,7 +18,7 @@
   --sans:  "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
 
   --maxw: 1140px;
-  --header-h: 72px;
+  --header-h: 112px;
 }
 
 *, *::before, *::after { box-sizing: border-box; }
@@ -104,7 +104,7 @@ img, svg { max-width: 100%; display: block; }
 }
 .site-logo { display: inline-flex; align-items: center; }
 .site-logo:hover { text-decoration: none; }
-.site-logo img { height: 34px; width: auto; }
+.site-logo img { height: 96px; width: auto; }
 
 .site-nav { display: flex; align-items: center; gap: 30px; }
 .site-nav a {
