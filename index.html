@@ -9,9 +9,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@400;500;600&display=swap" />
-  <link rel="stylesheet" href="/styles.css" />
+  <link rel="stylesheet" href="/styles.css?v=home-logos-1" />
 </head>
-<body>
+<body class="home-page">
   <header class="site-header">
     <div class="container">
       <a class="site-logo" href="/"><img src="/assets/sovra-logo.jpg" alt="Sovra" /></a>
@@ -20,88 +20,39 @@
       </button>
       <nav class="site-nav" id="site-nav">
         <a href="/" aria-current="page">Home</a>
-        <a href="/custom-design.html">Custom Design</a>
-        <a href="/lab-grown-diamonds.html">Lab-Grown Diamonds</a>
-        <a href="/natural-diamonds.html">Natural Diamonds</a>
-        <a href="/about.html">About</a>
+        <a href="/custom-design.html?v=catalog-2">Custom Design</a>
+        <a href="/lab-grown-diamonds.html?v=catalog-2">Lab-Grown Diamonds</a>
+        <a href="/natural-diamonds.html?v=catalog-2">Natural Diamonds</a>
+        <a href="/popular-jewelry-designs.html?v=catalog-2">Best Seller</a>
+        <a href="/about.html?v=catalog-2">About</a>
       </nav>
     </div>
   </header>
 
   <main>
-    <section class="hero">
-      <div class="container">
-        <p class="eyebrow">Engagement Rings &amp; Wedding Bands</p>
-        <h1>Fine bridal jewelry, designed around you</h1>
-        <p>Design a bespoke engagement ring or wedding band from the ground up, or explore our curated lab-grown and natural diamond collections.</p>
-        <a class="btn btn--solid" href="/custom-design.html">Design your ring</a>
-        <a class="btn btn--ghost" href="/lab-grown-diamonds.html">Browse collections</a>
-      </div>
-    </section>
-
-    <section class="section">
-      <div class="container">
-        <div class="section-head">
-          <h2>Three ways to find the one</h2>
-          <p>Whether you know exactly what you want or are just beginning to look, start here.</p>
-        </div>
-        <div class="tiles">
-          <a class="tile" href="/custom-design.html">
-            <svg class="tile__icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
-              <path d="M24 8l10 11-10 21L14 19z" /><path d="M14 19h20M24 8l-6 11 6 21 6-21z" />
-            </svg>
-            <h3>Custom Design</h3>
-            <p>Build a one-of-a-kind ring, choosing every detail from metal and setting to diamond shape and carat.</p>
-            <span class="tile__more">Open the configurator</span>
-          </a>
-          <a class="tile" href="/lab-grown-diamonds.html">
-            <svg class="tile__icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
-              <circle cx="24" cy="26" r="12" /><path d="M16 14h16l4 6H12z" /><path d="M24 14v24" />
-            </svg>
-            <h3>Lab-Grown Diamonds</h3>
-            <p>Brilliant, responsibly created diamonds set in classic and modern bridal designs.</p>
-            <span class="tile__more">View the collection</span>
-          </a>
-          <a class="tile" href="/natural-diamonds.html">
-            <svg class="tile__icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
-              <path d="M12 20l12-10 12 10-12 18z" /><path d="M12 20h24M24 10l-6 10 6 18 6-18z" />
-            </svg>
-            <h3>Natural Diamonds</h3>
-            <p>Ethically sourced mined diamonds in timeless solitaire, halo and three-stone settings.</p>
-            <span class="tile__more">View the collection</span>
-          </a>
-        </div>
-      </div>
-    </section>
-
-    <section class="section section--tight" style="background:#f3ede3;border-block:1px solid var(--line)">
-      <div class="container">
-        <div class="values">
-          <div>
-            <h3>Ethically sourced</h3>
-            <p>Every diamond, lab-grown or natural, is selected for cut, quality and responsible origin.</p>
-          </div>
-          <div>
-            <h3>Expert craftsmanship</h3>
-            <p>Each piece is made to order and finished by hand, then inspected before it reaches you.</p>
-          </div>
-          <div>
-            <h3>Here to help</h3>
-            <p>Questions as you choose a stone or setting? Call or email a Sovra specialist any time before you order.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section">
-      <div class="container section-head" style="margin-bottom:0">
-        <h2>Ready to begin?</h2>
-        <p style="margin-bottom:1.8em">Start designing your ring now, or reach out with any questions.</p>
-        <a class="btn btn--solid" href="/custom-design.html">Start designing</a>
-        <a class="btn btn--ghost" href="/about.html" style="margin-left:14px">Contact us</a>
-      </div>
-    </section>
-  </main>
+<section class="showcase" aria-labelledby="hero-title">
+ <div class="showcase__image" role="img" aria-label="Diamond engagement ring and eternity band against a black studio backdrop"></div>
+ <div class="container showcase__content"><p class="eyebrow">SOVRA JEWELS · NEW YORK</p><h1 id="hero-title">A brilliance<br>all your own.</h1><p>Extraordinary diamonds. Thoughtful design.<br>Jewelry for everything that comes next.</p><div class="hero-actions"><a class="btn btn--solid" href="/lab-grown-diamonds.html">Explore diamonds <span aria-hidden="true">↗</span></a><a class="text-link" href="/custom-design.html">Create your ring <span aria-hidden="true">→</span></a></div></div>
+ <div class="showcase__caption">THE ART OF EVERYDAY EXTRAORDINARY</div>
+</section>
+<section class="diamond-shapes"><div class="container"><div class="section-head"><p class="eyebrow">FIND YOUR BRILLIANCE</p><h2>A shape for every story.</h2><p>Discover the cut that speaks to you.</p></div><div class="shape-grid"><a class="shape-item" href="/lab-grown-diamonds.html"><svg viewBox="0 0 80 80" fill="none" stroke="currentColor" stroke-width="1.1" aria-hidden="true"><circle cx="40" cy="40" r="29"/><path d="M20 19l40 42M60 19L20 61M11 40h58M40 11v58M20 19h40l9 21-9 21H20l-9-21z"/></svg><span>Round</span></a><a class="shape-item" href="/lab-grown-diamonds.html"><svg viewBox="0 0 80 80" fill="none" stroke="currentColor" stroke-width="1.1" aria-hidden="true"><path d="M13 13h54v54H13zM13 13l27 15 27-15-15 27 15 27-27-15-27 15 15-27zM28 40l12-12 12 12-12 12z"/></svg><span>Princess</span></a><a class="shape-item" href="/lab-grown-diamonds.html"><svg viewBox="0 0 80 80" fill="none" stroke="currentColor" stroke-width="1.1" aria-hidden="true"><path d="M25 8h30l13 14v36L55 72H25L12 58V22zM29 18h22l7 9v26l-7 9H29l-7-9V27zM25 8l4 10M55 8l-4 10M68 22l-10 5M68 58l-10-5M55 72l-4-10M25 72l4-10M12 58l10-5M12 22l10 5"/></svg><span>Emerald</span></a><a class="shape-item" href="/lab-grown-diamonds.html"><svg viewBox="0 0 80 80" fill="none" stroke="currentColor" stroke-width="1.1" aria-hidden="true"><ellipse cx="40" cy="40" rx="23" ry="32"/><path d="M40 8L24 25l-7 15 7 15 16 17 16-17 7-15-7-15zM24 25h32L24 55h32z"/></svg><span>Oval</span></a><a class="shape-item" href="/lab-grown-diamonds.html"><svg viewBox="0 0 80 80" fill="none" stroke="currentColor" stroke-width="1.1" aria-hidden="true"><path d="M40 7C33 22 14 37 14 49a26 26 0 0052 0C66 37 47 22 40 7zM40 7v65M14 49h52M24 32l32 29M56 32L24 61"/></svg><span>Pear</span></a><a class="shape-item" href="/lab-grown-diamonds.html"><svg viewBox="0 0 80 80" fill="none" stroke="currentColor" stroke-width="1.1" aria-hidden="true"><rect x="12" y="12" width="56" height="56" rx="17"/><path d="M26 14l28 52M54 14L26 66M14 26l52 28M14 54l52-28M26 26h28v28H26z"/></svg><span>Cushion</span></a><a class="shape-item" href="/lab-grown-diamonds.html"><svg viewBox="0 0 80 80" fill="none" stroke="currentColor" stroke-width="1.1" aria-hidden="true"><path d="M40 70L13 40C-3 19 24-2 40 20 56-2 83 19 67 40zM40 20v50M13 40h54M22 15l18 25 18-25M13 40l27 6 27-6"/></svg><span>Heart</span></a><a class="shape-item" href="/lab-grown-diamonds.html"><svg viewBox="0 0 80 80" fill="none" stroke="currentColor" stroke-width="1.1" aria-hidden="true"><path d="M40 6C7 28 7 52 40 74 73 52 73 28 40 6zM40 6v68M18 40h44M40 6L27 40l13 34 13-34z"/></svg><span>Marquise</span></a></div><p class="shape-note">Explore shapes in our diamond collection</p></div></section>
+<section class="collection-section section"><div class="container"><div class="section-heading-row"><div><p class="eyebrow">THE SOVRA COLLECTIONS</p><h2>Exceptional by nature.<br>Personal by design.</h2></div><a class="text-link" href="/custom-design.html">Find your perfect piece ↗</a></div><div class="collection-grid">
+<a class="collection-card" href="/lab-grown-diamonds.html"><span class="collection-number">01 /</span><span class="collection-gem" aria-hidden="true">◇</span><h3>Lab-Grown Diamonds</h3><p>A modern expression of enduring brilliance.</p><span class="text-link">Explore collection ↗</span></a>
+<a class="collection-card" href="/natural-diamonds.html"><span class="collection-number">02 /</span><span class="collection-gem collection-gem--blue" aria-hidden="true">◇</span><h3>Natural Diamonds</h3><p>Rare beauty. A story billions of years in the making.</p><span class="text-link">Explore collection ↗</span></a>
+<a class="collection-card" href="/custom-design.html"><span class="collection-number">03 /</span><span class="collection-gem collection-gem--pink" aria-hidden="true">♧</span><h3>Made for You</h3><p>Your vision, brought to life in every detail.</p><span class="text-link">Start designing ↗</span></a>
+</div></div></section>
+<section class="section"><div class="container"><div class="section-head"><p class="eyebrow">DISCOVER YOUR NEXT PIECE</p><h2><a href="/popular-jewelry-designs.html">Best Seller</a></h2></div><nav class="category-tabs" aria-label="Jewelry categories"><a href="/jewelry/necklace.html">Necklace</a><a href="/jewelry/bracelet.html">Bracelet</a><a href="/jewelry/rings.html">Rings</a><a href="/jewelry/eternity-bands.html">Eternity Bands</a><a href="/jewelry/pendant.html">Pendant</a><a href="/jewelry/earrings.html">Earrings</a></nav><div class="product-grid"><a class="jewelry-card" href="/products/17-22-ctw-tennis-bracelet.html"><img src="/assets/products/sld-kv-008.jpg" alt="17.22 ctw round lab-grown diamond tennis bracelet in 14K yellow gold" width="700" height="700"><div><p class="eyebrow">14K YELLOW GOLD · 7 INCHES</p><h2>17.22 ctw Diamond Tennis Bracelet</h2><p>Round lab-grown diamonds · 4-prong setting</p><strong>$6,270.00 USD</strong><span class="text-link">View design ↗</span></div></a></div></div></section><section class="craft-section"><div class="craft-visual" aria-hidden="true"><span>Since every<br>detail matters.</span></div><div class="craft-copy"><p class="eyebrow">THE SOVRA APPROACH</p><h2>Beautiful materials.<br>Considered choices.</h2><p>From choosing your diamond to finding the right setting, we help you create a piece that feels entirely yours.</p><p>Explore lab-grown and natural diamonds, compare the details, and work with our Fifth Avenue team to bring your ideas together.</p><a class="btn btn--ghost" href="/about.html">Discover Sovra ↗</a></div></section>
+<section class="service-section section"><div class="container"><div class="section-head"><p class="eyebrow">AT YOUR SERVICE</p><h2>A little guidance.<br>A lifetime of meaning.</h2></div><div class="service-grid"><div><span>01</span><h3>Personal guidance</h3><p>A real conversation with our New York team.</p></div><div><span>02</span><h3>Your choice of diamond</h3><p>Explore both lab-grown and natural collections.</p></div><div><span>03</span><h3>Designed around you</h3><p>Choose the shape, metal and setting you love.</p></div><div><span>04</span><h3>Here when you need us</h3><p>Support from your first idea to your final choice.</p></div></div></div></section>
+<section class="appointment-section"><div class="container"><p class="eyebrow">LET’S MAKE SOMETHING MEANINGFUL</p><h2>Your story. Your Sovra.</h2><p>Visit us on Fifth Avenue or start the conversation from wherever you are.</p><a class="btn btn--solid" href="/about.html">Get in touch ↗</a></div></section>
+  <div class="home-logo-strip">
+    <ul class="container home-logo-strip__list">
+      <li><img class="home-logo-strip__gia" src="/assets/logo-gia.jpg" alt="Gemological Institute of America" loading="lazy"></li>
+      <li><img class="home-logo-strip__igi" src="/assets/logo-igi.jpg" alt="International Gemological Institute" loading="lazy"></li>
+      <li><img class="home-logo-strip__gcal" src="/assets/logo-gcal.jpg" alt="Gem Certification and Assurance Lab" loading="lazy"></li>
+      <li><img class="home-logo-strip__jbt" src="/assets/logo-jbt.jpg" alt="Jewelers Board of Trade" loading="lazy"></li>
+    </ul>
+  </div>
+</main>
 
   <footer class="site-footer">
     <div class="container">
@@ -135,6 +86,6 @@
     </div>
   </footer>
 
-  <script src="/nav.js" defer></script>
+  <script src="/nav.js?v=catalog-2" defer></script>
 </body>
 </html>
